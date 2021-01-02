@@ -1,7 +1,8 @@
 import * as type from '../types';
 
-export function getPhotos() {
+export function getPhotos(start) {
   return { 
-    type: type.GET_PHOTOS_REQUESTED
+    type: type.GET_PHOTOS_REQUESTED,
+    payload: start
   }
 }
