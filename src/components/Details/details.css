@@ -1,0 +1,25 @@
+.detailsHeadline{
+    margin: 50px 100px;
+    font-family: 'Montserrat';
+    text-align: center;
+    border-bottom: 1px solid #000000;
+    font-weight: 100;
+}
+
+.detailsButton{
+    position: absolute;
+    top: 1%;
+    left: 2%;
+    background-color: #FFFFFF;
+    color: #71bbd4;
+    border: none;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.photo{
+    text-align: center;
+}
