@@ -10,7 +10,7 @@ import './app.css';
 const App = () => {
     let thumbnails;
     const dispatch = useDispatch();
-    const thumbnailsPerPage = 10;
+    const thumbnailsPerPage = 20;
     const [currentPage, setCurrentPage] = useState(1);
     const photos = useSelector(state => state.photos.photos);
     const loading = useSelector(state => state.photos.loading);

@@ -1,7 +1,7 @@
 import { call, put, takeEvery } from 'redux-saga/effects';
 
 function getApi(action) {
-   const apiUrl = `http://jsonplaceholder.typicode.com/photos?_start=${action.payload}&_limit=10`;
+   const apiUrl = `http://jsonplaceholder.typicode.com/photos?_start=${action.payload}&_limit=20`;
    return fetch(apiUrl, {
          method: 'GET',
          headers: {

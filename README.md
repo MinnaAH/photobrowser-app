@@ -21,4 +21,4 @@ Runs all tests in watch mode, tests are runned again when test file is cahnges i
 
 ### `npm run test:coverage`
 
-Runs jest test code coverage. Code coverage can be seen in terminal. Also creates coverage folder to project where is coverage report. 
+Runs jest test code coverage. Code coverage can be seen in terminal. Also creates `coverage` folder to project where is coverage report. 
