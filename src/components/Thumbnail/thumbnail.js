@@ -1,12 +1,12 @@
 import React from 'react';
 import './thumbnail.css';
 
-const Thumbnail = (props) => {
+const Thumbnail = ({thumbnail}) => {
     return(
         <div className="thumbnail">
             <img
-                src={props.thumbnail.thumbnailUrl}
-                alt={props.thumbnail.title}
+                src={thumbnail.thumbnailUrl}
+                alt={thumbnail.title}
             />
         </div>
     )

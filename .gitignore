@@ -6,3 +6,7 @@ build
 
 #assets
 assets
+
+#test
+__snapshots__
+coverage
