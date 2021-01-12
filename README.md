@@ -2,6 +2,12 @@
 
 This is React project of photobrowser app
 
+### Get started
+
+Clone or download project from repository. With `npm install` node modules will be installed to project.
+
+### To run project locally
+
 ### `npm start`
 Runs the app in the development mode.\
 Opens [http://localhost:8080/](http://localhost:8080/) to view it in the default browser.
